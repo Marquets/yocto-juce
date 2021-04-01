@@ -2,10 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 #AC_PREREQ(2.60)
-AC_INIT(YoctoAudioPluginHost, 1.0, gbmhunter@gmail.com)
-AC_CONFIG_SRCDIR([HostStartup.cpp])
+AC_INIT(Audioconsole, 1.0, gbmhunter@gmail.com)
+AC_CONFIG_SRCDIR([Source/Main.cpp])
 #AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(YoctoAudioPluginHost, main)
+AM_INIT_AUTOMAKE(Audioconsole, main)
 
 # Checks for programs.
 AC_PROG_CC
