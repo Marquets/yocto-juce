@@ -27,5 +27,5 @@ AC_ENABLE_SHARED
 # Checks for library functions.
 
 AC_CONFIG_MACRO_DIR([m4])
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Builds/LinuxMakefile/Makefile])
 AC_OUTPUT
