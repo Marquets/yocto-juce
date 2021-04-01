@@ -4,4 +4,4 @@ CFLAGS = -Wall -pedantic -MT
 ACLOCAL_AMFLAGS = -I m4
  
 bin_PROGRAMS = audioconsole
-audioconsole_SOURCES = Source/Main.cpp
+audioconsole_SOURCES = Main.cpp
