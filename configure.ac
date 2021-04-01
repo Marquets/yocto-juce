@@ -4,7 +4,7 @@
 #AC_PREREQ(2.60)
 AC_INIT(Audioconsole, 1.0, gbmhunter@gmail.com)
 AC_CONFIG_SRCDIR([Source/Main.cpp])
-#AC_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADER([JuceLibraryCode/JuceHeader.h])
 AM_INIT_AUTOMAKE(Audioconsole, main)
 
 # Checks for programs.
